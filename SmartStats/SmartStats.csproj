@@ -1,0 +1,38 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Description>SmartStats is a powerful toolkit for machine learning and data analytics in .NET. It provides a wide range of statistical functions and algorithms for data processing, exploration, and modeling. With SmartStats, you can easily preprocess your data, perform feature engineering, train and evaluate machine learning models, and make predictions on new data. SmartStats includes support for popular machine learning frameworks like TensorFlow, Keras, and scikit-learn, as well as for common data formats like CSV, JSON, and Excel. Whether you are a data scientist, machine learning engineer, or software developer, SmartStats can help you build smarter, more accurate, and more efficient data-driven applications.</Description>
+    <PackageProjectUrl>https://cubemak.com</PackageProjectUrl>
+    <Copyright>© Somanathan Gohulan</Copyright>
+    <PackageReleaseNotes> SmartStats 1.0.0 release notes:
+
+  - Initial release of SmartStats package.
+  - Includes statistical functions and transforms for machine learning and data analysis.
+  - Compatible with .NET Standard 2.0 and later versions.
+  - Supports both CPU and GPU acceleration for certain functions.
+  - Improved performance and accuracy compared to other similar packages.</PackageReleaseNotes>
+    <Title>SmartStats - Statistical Functions and Transforms for Machine Learning and Data Analysis</Title>
+    <Company>Cubemak Labs</Company>
+    <PackageIcon>icons8-artificial-intelligence-96.png</PackageIcon>
+    <PackageTags>machine learning; data analysis; statistics; transforms; normalization; linear regression</PackageTags>
+    <PackageReadmeFile>readme.md</PackageReadmeFile>
+    <RepositoryType>Git</RepositoryType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\..\..\Downloads\icons8-artificial-intelligence-96.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\..\..\..\OneDrive\Desktop\readme.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.ML" Version="2.0.1" />
+  </ItemGroup>
+
+</Project>
